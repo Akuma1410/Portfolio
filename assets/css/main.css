@@ -1273,3 +1273,49 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*CSS pour la partie qualité*/
+.qualities {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* Espace entre les qualités */
+  list-style: none; /* Supprime les puces si utilisé avec <ul> ou <ol> */
+  padding: 0;
+  margin: 0;
+}
+
+.qualities p {
+  margin: 0;
+  padding: 10px 15px; /* Espace interne dans chaque cadre */
+  font-size: 18px;
+  color: #333; /* Couleur du texte */
+  background-color: #f9f9f9; /* Couleur de fond du cadre */
+  border: 1px solid #ccc; /* Bordure grise autour du cadre */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre pour donner du relief */
+  text-align: center;
+}
+
+.qualities p:hover {
+  background-color: #e0f7fa; /* Changement de couleur au survol */
+  border-color: #00acc1; /* Bordure plus visible au survol */
+}
+
+/*CSS pour les bouton CV */
+.button {
+  display: inline-block;
+  padding: 10px 20px; /* Taille du bouton */
+  font-size: 16px;
+  color: white; /* Couleur du texte */
+  background-color: #007bff; /* Couleur de fond */
+  border: none; /* Supprime les bordures */
+  border-radius: 5px; /* Arrondit les coins */
+  text-decoration: none; /* Supprime le soulignement */
+  cursor: pointer; /* Change le curseur en une main */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Change la couleur au survol */
+}
