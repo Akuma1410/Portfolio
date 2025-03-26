@@ -260,14 +260,14 @@ h6 {
 
 .navmenu ul {
   list-style: none;
-  padding: 0 0 8px 0;
+  padding: 0 0 9px 0;
   margin: 0;
 }
 
 .navmenu a,
 .navmenu a:focus {
   color: var(--nav-color);
-  padding: 8px 10px;
+  padding: 9px 10px;
   font-family: var(--nav-font);
   font-size: 16px;
   font-weight: 400;
